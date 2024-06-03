@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Repositories;
+
+use App\Models\{{ModelClass}};
+use App\Commons\ApiRepository;
+
+class {{ClassName}} extends ApiRepository
+{
+    public function __construct({{ModelClass}} $model)
+    {
+        parent::__construct($model);
+    }
+}
